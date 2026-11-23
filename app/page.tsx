@@ -29,12 +29,6 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="px-8 pb-8 md:px-20">
-        <a href="/artists" className="inline-flex items-center gap-2 text-sm text-slate-400 underline-offset-4 transition-colors hover:text-slate-700 hover:underline" aria-label="签约艺术家 — KIYAN Artist Roster">
-          签约艺术家 <span aria-hidden="true">↗</span>
-        </a>
-      </div>
-
       <section id="projects" className="bg-slate-50 px-8 py-24 md:px-20">
         <p className="mb-4 text-sm tracking-[0.3em] text-slate-400 uppercase">Projects</p>
         <div className="grid gap-8 md:grid-cols-3">
