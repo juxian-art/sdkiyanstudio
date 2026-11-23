@@ -29,17 +29,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="artist-roster" className="border-y border-slate-200 bg-[#f7f7f5] px-8 py-24 md:px-20">
-        <div className="mx-auto flex max-w-6xl flex-col justify-between gap-8 md:flex-row md:items-end">
-          <div className="max-w-2xl">
-            <p className="mb-4 text-sm uppercase tracking-[0.3em] text-slate-500">KIYAN Artist Roster</p>
-            <h2 className="text-4xl font-light leading-tight md:text-5xl">Create freely. Collaborate naturally.</h2>
-            <p className="mt-6 leading-8 text-slate-600">A non-exclusive circle for independent artists around the world. Leave anytime, keep your own clients, and choose when you want our business representation.</p>
-            <p className="mt-4 text-sm text-slate-500">6% when you choose KIYAN business services · 0% on your own work · Artists get paid first.</p>
-          </div>
-          <a href="/artists" className="inline-flex shrink-0 rounded-2xl bg-slate-900 px-6 py-3 text-sm text-white">Explore Artist Collaboration →</a>
-        </div>
-      </section>
+      <div className="px-8 pb-8 md:px-20">
+        <a href="/artists" className="inline-flex items-center gap-2 text-sm text-slate-400 underline-offset-4 transition-colors hover:text-slate-700 hover:underline" aria-label="签约艺术家 — KIYAN Artist Roster">
+          签约艺术家 <span aria-hidden="true">↗</span>
+        </a>
+      </div>
 
       <section id="projects" className="bg-slate-50 px-8 py-24 md:px-20">
         <p className="mb-4 text-sm tracking-[0.3em] text-slate-400 uppercase">Projects</p>
